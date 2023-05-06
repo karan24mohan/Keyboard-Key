@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    width: fit-content;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.keycodeWrapper {
+    border: 10px solid blueviolet;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keycodeWrapper span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.keynamestyle {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.details {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.details p span {
+    font-size: 16px;
+}
